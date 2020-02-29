@@ -27,6 +27,7 @@ brew cask install firefox
 brew cask install microsoft-edge
 brew cask install jetbrains-toolbox
 brew cask install iterm2 
+brew cask install azure-data-studio
 brew cask install spectacle
 brew cask install dashlane
 brew cask install gitkraken
