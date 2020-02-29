@@ -1,4 +1,4 @@
-:: This is Petter's script to setup a new mac for development
+:: This is Petter's script to setup a new windows pc for development
 :: It is curated before it is run and therefore reflects 
 :: last current setup and sometimes what is added in between 
 

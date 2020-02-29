@@ -32,6 +32,7 @@ brew cask install dashlane
 brew cask install gitkraken
 brew cask install slack
 brew cask install spotify
+brew cask install vlc
 
 brew install mas
 # todoist
@@ -57,4 +58,4 @@ brew cask install font-cascadia-mono-pl
 mkdir ~/Code
 
 # Manual steps 😿
-# Download dank from cloud provider
+# Download dank from cloud storage
