@@ -55,3 +55,6 @@ brew cask install font-cascadia-mono-pl
 
 # make directory for code
 mkdir ~/Code
+
+# Manual steps 😿
+# Download dank from cloud provider
