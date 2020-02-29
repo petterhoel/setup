@@ -1,0 +1,2 @@
+# setup
+Automating setup 🤖
