@@ -7,12 +7,8 @@ Automating setup 🤖
     - Iterm theme
     - Background image
 - Windows
-    - Terminal
-    - Jetbrains Toolbox
-    - Visual Studio Code
-    - SSMS
-    - LinqPad
-    - Visual Studio
+    - terminal profile
+    - Background image
     - ssh
 - Settings management
     - VS Code
