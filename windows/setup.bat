@@ -2,8 +2,6 @@
 :: It is curated before it is run and therefore reflects 
 :: last current setup and sometimes what is added in between 
 
-:: NOT TESTED 🥱
-
 :: powershell
 
 @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
@@ -14,6 +12,9 @@ choco feature enable -n allowGlobalConfirmation
 :: install apps
 choco install vlc
 choco install firefox
+choco install microsoft-edge
+choco install microsoft-edge-insider-dev
+choco install git
 choco install jetbrainstoolbox
 choco install visualstudio2019enterprise
 choco install vscode
@@ -31,5 +32,9 @@ choco install nvm
 
 mkdir ~/Code
 
-:: Manual steps 😿
+
+curl https://github.com/petterhoel/setup/raw/main/images/stsci-h-p1930a-f-3213x2836.jpg > "~/Pictures/terminal-bg.jpg"
+
+
+:: Manual steps 😿
 :: Download dank from cloud storage
