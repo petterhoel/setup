@@ -15,19 +15,13 @@ choco install microsoft-edge
 choco install microsoft-edge-insider-dev
 choco install git
 choco install jetbrainstoolbox
-choco install visualstudio2019enterprise
 choco install vscode
-choco install dashlane
 choco install gitkraken
 choco install slack
 choco install spotify
 choco install ssms
 choco install microsoft-windows-terminal
-choco install fscapture
 choco install linqpad
-
-:: nvm 
-choco install nvm
 
 mkdir ~/Code
 
