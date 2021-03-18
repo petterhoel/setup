@@ -11,8 +11,6 @@ choco feature enable -n allowGlobalConfirmation
 :: install apps
 choco install vlc
 choco install firefox
-choco install microsoft-edge
-choco install microsoft-edge-insider-dev
 choco install git
 choco install jetbrainstoolbox
 choco install vscode
