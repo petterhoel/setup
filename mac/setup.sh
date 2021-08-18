@@ -2,8 +2,11 @@
 # It is curated before it is run and therefore reflects 
 # last current setup and sometimes what is added in between 
 
+
+
 # install command line developer tools
 sudo xcode-select --install
+
 
 # install oh my zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -56,7 +59,9 @@ brew cask install font-cascadia-pl
 brew cask install font-cascadia-mono-pl
 
 # make directory for code
-mkdir ~/Code
+mkdir /Code
+cd /Code
 
-# Manual steps 😿
-# Download dank from cloud storage
+# get this repo
+git clone --depth=1 https://github.com/petterhoel/setup.git
+cd setup

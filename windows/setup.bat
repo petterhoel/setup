@@ -9,6 +9,7 @@
 choco feature enable -n allowGlobalConfirmation
 
 :: install apps
+choco install powershell-core
 choco install vlc
 choco install firefox
 choco install git
@@ -21,11 +22,17 @@ choco install ssms
 choco install microsoft-windows-terminal
 choco install linqpad
 
-mkdir ~/Code
+:: get this repo
+git clone --depth=1 https://github.com/petterhoel/setup.git
+cd setup
+
+:: make directory for code
+mkdir C:\Code
+cd C:\Code
 
 
-curl https://github.com/petterhoel/setup/raw/main/images/stsci-h-p1930a-f-3213x2836.jpg > "~/Pictures/terminal-bg.jpg"
-
-
-:: Manual steps 😿
-:: Download dank from cloud storage
+# todo
+#  -wsl
+#  -terminal setup
+#  -posh setup
+#  -poweshell core setup
