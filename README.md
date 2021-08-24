@@ -18,6 +18,7 @@
 - Download dank
 - Aliases
 - Add ssh .pub-key to github, work ++
+- Kopiere innhold i poweshell/profile.ps1 til $Profile
 
 ## Todo
 - Mac
