@@ -2,7 +2,7 @@ Import-Module posh-git
 Import-Module oh-my-posh
 Set-PoshPrompt -Theme aliens # Paradox
 
-Import-WslCommand "apt", "awk", "emacs", "grep", "head", "less", "ls", "man", "sed", "seq", "ssh", "sudo", "tail"
+Import-WslCommand "apt", "awk", "touch", "grep", "head", "less", "ls", "man", "sed", "seq", "ssh", "sudo", "tail"
 
 # navigering
 function pas { set-location "C:\Code\Pasientrutine\Furst.Pasientrutine.Frontend" }

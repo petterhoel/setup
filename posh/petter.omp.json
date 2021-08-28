@@ -18,17 +18,17 @@
           {
             "type": "git",
             "style": "plain",
-            "foreground": "green",
+            "foreground": "#96ffbf",
             "properties": {
               "display_status": true,
               "prefix": " on ",
               "postfix": " ",
-              "ahead_color": "red",
-              "behind_color": "green",
-              "working_color": "red",
-              "staging_color": "yellow",
-              "local_changes_color": "yellow",
-              "ahead_and_behind_color": "red",
+              "ahead_color": "#ff80bb",
+              "behind_color": "#96ffbf",
+              "working_color": "#ff80bb",
+              "staging_color": "#ffc180",
+              "local_changes_color": "#ffc180",
+              "ahead_and_behind_color": "#ff80bb",
               "color_background": false,
               "display_stash_count": true,
               "display_upstream_icon": true,
@@ -60,11 +60,11 @@
           {
               "type": "exit",
               "style": "powerline",
-              "foreground": "lightGreen",
+              "foreground": "#96ffbf",
               "properties": {
                   "display_exit_code": false,
                   "always_enabled": true,
-                  "error_color": "red",
+                  "error_color": "#ff80bb",
                   "prefix": "\u276F"
               }
           }
