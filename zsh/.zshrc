@@ -117,4 +117,4 @@ alias ws='webstorm .'
 
 alias src='~/Code'
 
-eval "$(oh-my-posh --init --shell zsh --config ~/petter.omp.json)"
+eval "$(oh-my-posh --init --shell zsh --config ~/Code/setup/posh/petter.omp.json)"
