@@ -57,6 +57,7 @@ brew cask install font-cascadia
 brew cask install font-cascadia-mono
 brew cask install font-cascadia-pl
 brew cask install font-cascadia-mono-pl
+brew cask install font-caskaydia-cove-nerd-font
 
 # make directory for code
 mkdir /Code

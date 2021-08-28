@@ -1,4 +1,4 @@
-# Automating setup 🤖 ზ
+# Automating setup ზ 🤖 
 
 ## What to do 
 ### 🍏
@@ -7,7 +7,7 @@
 - run git.sh
 - manual steps
 
-### 🪟
+## ⊞
 - run setup.bat
 - run git.bat
 - manual steps

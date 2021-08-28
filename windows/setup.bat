@@ -21,6 +21,7 @@ choco install spotify
 choco install ssms
 choco install microsoft-windows-terminal
 choco install linqpad
+choco install cascadia-code-nerd-font
 
 :: get this repo
 git clone --depth=1 https://github.com/petterhoel/setup.git
