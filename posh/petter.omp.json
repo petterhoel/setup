@@ -1,0 +1,78 @@
+{
+    "blocks": [
+      {
+        "type": "prompt",
+        "alignment": "left",
+        "segments": [
+          {
+            "type": "path",
+            "style": "plain",
+            "foreground": "#83769c",
+            "properties": {
+              "postfix": "/",
+              "home_icon": "~",
+              "folder_separator_icon": " \uE0b1 ",
+              "style": "folder"
+            }
+          },
+          {
+            "type": "git",
+            "style": "plain",
+            "foreground": "green",
+            "properties": {
+              "display_status": true,
+              "prefix": " on ",
+              "postfix": " ",
+              "ahead_color": "red",
+              "behind_color": "green",
+              "working_color": "red",
+              "staging_color": "yellow",
+              "local_changes_color": "yellow",
+              "ahead_and_behind_color": "red",
+              "color_background": false,
+              "display_stash_count": true,
+              "display_upstream_icon": true,
+              "status_colors_enabled": true,
+              "github_icon": " "
+            }
+          }
+        ]
+      },
+      {
+          "type": "rprompt",
+          "alignment": "right",
+          "segments": [
+            {
+              "type": "executiontime",
+              "style": "plain",
+              "foreground": "#83769c",
+              "properties": {
+                "always_enabled": true
+              }
+            }
+          ]
+      },
+      {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+          {
+              "type": "exit",
+              "style": "powerline",
+              "foreground": "lightGreen",
+              "properties": {
+                  "display_exit_code": false,
+                  "always_enabled": true,
+                  "error_color": "red",
+                  "prefix": "\u276F"
+              }
+          }
+      ]
+  }
+    ],
+    "final_space": true,
+    "console_title": true,
+    "console_title_style": "template",
+    "console_title_template": "{{ .Shell }} in {{ .Folder }}"
+  }
