@@ -1,6 +1,3 @@
-:: This is Petter's script to setup a new windows pc for development
-:: It is curated before it is run and therefore reflects 
-:: last current setup and sometimes what is added in between 
 
 :: install chocolatey with powershell
 @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
@@ -32,9 +29,8 @@ cd setup
 mkdir C:\Code
 cd C:\Code
 
-
-# todo
-#  -wsl
-#  -terminal setup
-#  -posh setup
-#  -poweshell core setup
+:: todo
+::  -wsl
+::  -terminal setup
+::  -posh setup
+::  -poweshell core setup
