@@ -1,9 +1,10 @@
+# posh
 Import-Module posh-git
 Import-Module oh-my-posh
-Set-PoshPrompt -Theme aliens # Paradox
+Set-PoshPrompt -Theme C:\Code\setup\posh\petter.omp.json
 
+# more like linux
 Import-WslCommand "apt", "awk", "touch", "grep", "head", "less", "ls", "man", "sed", "seq", "ssh", "sudo", "tail"
-
 Import-Module cd-extras
 
 # navigering

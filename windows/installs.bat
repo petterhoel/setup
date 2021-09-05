@@ -34,5 +34,4 @@ cd C:\Code
 :: todo
 ::  -wsl
 ::  -terminal setup
-::  -posh setup
 ::  -poweshell core setup
