@@ -4,6 +4,8 @@ Set-PoshPrompt -Theme aliens # Paradox
 
 Import-WslCommand "apt", "awk", "touch", "grep", "head", "less", "ls", "man", "sed", "seq", "ssh", "sudo", "tail"
 
+Import-Module cd-extras
+
 # navigering
 function pas { set-location "C:\Code\Pasientrutine\Furst.Pasientrutine.Frontend" }
 function lm { set-location "C:\Code\LisMikro\Furst.LisMikro.Frontend" }

@@ -21,6 +21,8 @@ choco install linqpad
 choco install cascadia-code-nerd-font
 choco install azure-data-studio
 
+Install-Module cd-extras
+
 :: get this repo
 git clone --depth=1 https://github.com/petterhoel/setup.git
 cd setup

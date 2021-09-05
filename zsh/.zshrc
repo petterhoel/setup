@@ -106,15 +106,29 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH=/opt/homebrew/bin:$PATH
 
+# navigering
+alias src='/Users/petter/Code'
+alias mess='/Users/petter/Code/Rct4Net.Messages'
 alias pas='/Users/petter/Code/Pasientrutine/Furst.Pasientrutine.Frontend'
 alias lm='/Users/petter/Code/LisMikro/Furst.LisMikro.Frontend'
 alias fix='rm -rf node_modules package-lock.json && npm i'
 
+
+# git
+alias g='g'
+alias gb='git checkout -b  '
 alias gs='git status'
 alias ga='git add -A'
-alias gcm='git commit -m '
+alias gcom='git commit -m '
+alias gpu='git pull '
+
 alias ws='webstorm .'
 
 alias src='~/Code'
 
 eval "$(oh-my-posh --init --shell zsh --config ~/Code/setup/posh/petter.omp.json)"
+
+# terminal
+alias cl='git pull '
+alias cd..='cd ..'
+
