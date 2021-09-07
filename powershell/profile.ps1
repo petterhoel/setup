@@ -17,6 +17,7 @@ function src { set-location "C:\Code" }
 # terminal
 function cl { clear }
 function cd.. { cd ".." }
+function ws { webstorm . }
 
 
 # git
