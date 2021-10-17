@@ -1,11 +1,9 @@
-# posh
 Import-Module posh-git
 Import-Module oh-my-posh
-Set-PoshPrompt -Theme C:\Code\setup\posh\petter.omp.json
-
-# more like linux
-Import-WslCommand "apt", "awk", "touch", "grep", "head", "less", "ls", "man", "sed", "seq", "ssh", "sudo", "tail"
 Import-Module cd-extras
+Import-Module -Name Terminal-Icons
+
+Set-PoshPrompt -Theme C:\Code\setup\posh\petter.omp.json
 
 # navigering
 function pas { set-location "C:\Code\Pasientrutine\Furst.Pasientrutine.Frontend" }
@@ -18,6 +16,7 @@ function src { set-location "C:\Code" }
 function cl { clear }
 function cd.. { cd ".." }
 function ws { webstorm . }
+function rid { rider . }
 
 
 # git
