@@ -1,3 +1,9 @@
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/petterhoel/setup/main/mac/installs.sh)"
+
+# make directory for code
+mkdir ~/Code
+cd ~/Code
+
 # install command line developer tools
 sudo xcode-select --install
 
@@ -6,7 +12,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 # oh-my-zsh theme
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
-echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>! ~/.zshrc
+echo 'source ~/Code/powerlevel10k/powerlevel10k.zsh-theme' >>! ~/.zshrc
 
 # install home-brew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -14,45 +20,36 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew doctor
 brew update
 
-
 # install apps
+brew install --cask alfred
 brew install --cask visual-studio-code
 brew install --cask firefox
 brew install --cask microsoft-edge
 brew install --cask jetbrains-toolbox
 brew install --cask iterm2
 brew install --cask azure-data-studio
-brew install --cask spectacle
-brew install --cask dashlane
+brew install --cask bettertouchtool
 brew install --cask gitkraken
 brew install --cask slack
 brew install --cask spotify
 brew install --cask vlc
-brew instal --cask azure-data-studio
-
-brew install mas
-# todoist
-mas install 585829637
+brew install --cask qobuz
+brew install docker
+brew install --cask microsoft-remote-desktop
+brew install --cask microsoft-teams
+brew install --cask notion
+brew install --cask rocket
+brew install --cask steam
+brew install --cask snagit
+brew install jandedobbeleer/oh-my-posh/oh-my-posh
+oh-my-posh font install
 
 #nvm && node
 brew install nvm
 echo "export NVM_DIR=~/.nvm" >> ~/.zshrc
 echo "source $(brew --prefix nvm)/nvm.sh" >> ~/.zshrc
 source ~/.zshrc
-nvm install --lts
-
-# install fonts 
-brew tap homebrew/cask-fonts
-brew install --cask font-cascadia
-brew install --cask font-cascadia-mono
-brew install --cask font-cascadia-pl
-brew install --cask font-cascadia-mono-pl
-brew install --cask font-caskaydia-cove-nerd-font
-
-# make directory for code
-mkdir /Code
-cd /Code
 
 # get this repo
-git clone --depth=1 https://github.com/petterhoel/setup.git
+git clone https://github.com/petterhoel/setup.git
 cd setup
