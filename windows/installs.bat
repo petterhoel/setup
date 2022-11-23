@@ -15,6 +15,7 @@ choco install vscode
 choco install gitkraken
 choco install slack
 choco install spotify
+choco install snagit
 choco install ssms
 choco install microsoft-windows-terminal
 choco install linqpad
