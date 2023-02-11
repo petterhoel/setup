@@ -24,5 +24,6 @@ function g { git }
 function gs { git "status" }
 function ga { git add "-A" }
 function gpu { git pull }
-function gcom ([String] $message) { git commit -m $message }
+
+function gcom ([String] $message) { git add -A && git commit -m $message }
 function gb ([String] $branchname){ git checkout -b $branchname }
