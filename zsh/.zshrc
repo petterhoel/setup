@@ -106,6 +106,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH=/opt/homebrew/bin:$PATH
 
+# Create as alias for nuget
+alias nuget="mono /usr/local/bin/nuget.exe"
+
 # navigering
 alias src='/Users/petter/Code'
 alias mess='/Users/petter/Code/Rct4Net.Messages'
@@ -119,7 +122,7 @@ alias g='g'
 alias gb='git checkout -b  '
 alias gs='git status'
 alias ga='git add -A'
-alias gcom='git commit -m '
+alias gcom='git add -A && git commit -m '
 alias gpu='git pull '
 
 alias ws='webstorm .'
