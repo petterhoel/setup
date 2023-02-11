@@ -2,13 +2,19 @@
 
 ## What to do 
 ### 🍏
-- run setup.sh
-- sun ssh.sh
-- run git.sh
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/petterhoel/setup/main/mac/git.sh)"
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/petterhoel/setup/main/mac/set-mac-settings.sh)"
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/petterhoel/setup/main/mac/installs.sh)"
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/petterhoel/setup/main/mac/installs.sh)"
+
+
 - manual steps
 
 ## ⊞
-- run setup.bat
 - run git.bat
 - manual steps
 
@@ -18,11 +24,13 @@
 - Download dank
 - Aliases
 - Add ssh .pub-key to github, work ++
+- install tinkertank
+- install global protect
+- Deal with ssh and 1password cli
 - Kopiere innhold i poweshell/profile.ps1 til $Profile
 
 ## Todo
 - Mac
-  - Clear dock
   - Iterm theme
   - Background image
 - Windows

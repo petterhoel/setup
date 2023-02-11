@@ -1,9 +1,3 @@
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/petterhoel/setup/main/mac/installs.sh)"
-
-# make directory for code
-mkdir ~/Code
-cd ~/Code
-
 # install command line developer tools
 sudo xcode-select --install
 
@@ -19,28 +13,32 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 brew doctor
 brew update
+brew tap homebrew/cask-versions
 
 # install apps
-brew install --cask alfred
-brew install --cask visual-studio-code
-brew install --cask firefox
-brew install --cask microsoft-edge
-brew install --cask jetbrains-toolbox
-brew install --cask iterm2
+brew install --cask 1password
+brew install --cask 1password-cli
 brew install --cask azure-data-studio
 brew install --cask bettertouchtool
+brew install --cask chrysalis
+brew install --cask firefox-developer-edition
 brew install --cask gitkraken
-brew install --cask slack
-brew install --cask spotify
-brew install --cask vlc
-brew install --cask qobuz
-brew install docker
+brew install --cask iterm2
+brew install --cask jetbrains-toolbox
+brew install --cask microsoft-edge
 brew install --cask microsoft-remote-desktop
 brew install --cask microsoft-teams
 brew install --cask notion
+brew install --cask qobuz
+brew install --cask raycast
 brew install --cask rocket
-brew install --cask steam
+brew install --cask slack
 brew install --cask snagit
+brew install --cask visual-studio-code
+brew install --cask vlc
+brew install docker
+brew install docker-compose
+
 brew install jandedobbeleer/oh-my-posh/oh-my-posh
 oh-my-posh font install
 
@@ -49,7 +47,3 @@ brew install nvm
 echo "export NVM_DIR=~/.nvm" >> ~/.zshrc
 echo "source $(brew --prefix nvm)/nvm.sh" >> ~/.zshrc
 source ~/.zshrc
-
-# get this repo
-git clone https://github.com/petterhoel/setup.git
-cd setup
