@@ -1,5 +1,17 @@
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/petterhoel/setup/main/mac/installs.sh)"
 
+# only show open apps in dock
+defaults write com.apple.dock static-only -bool true
+killall Dock
+
+# Show Path in Finder:
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool true; killall Finder
+
+# Sort folders first in Finder
+defaults write com.apple.finder _FXSortFoldersFirst -bool true; killall Finder
+
+# Always show scroll bars
+defaults write NSGlobalDomain AppleShowScrollBars -string "Always"; killall Finder
 # make directory for code
 mkdir ~/Code
 cd ~/Code
