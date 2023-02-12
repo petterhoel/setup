@@ -1,0 +1,24 @@
+eval "$(oh-my-posh --init --shell zsh --config ~/.omp/petter.omp.json)"
+
+# navigering
+alias src='~/Code'
+alias mess='/Users/petter/Code/Rct4Net.Messages'
+alias pas='/Users/petter/Code/Pasientrutine/Furst.Pasientrutine.Frontend'
+alias lm='/Users/petter/Code/LisMikro/Furst.LisMikro.Frontend'
+alias fix='rm -rf node_modules package-lock.json && npm i'
+
+# git
+alias g='g'
+alias gb='git checkout -b  '
+alias gs='git status'
+alias ga='git add -A'
+alias gcom='git add -A && git commit -m '
+alias gpu='git pull '
+
+# jetbrains
+alias ws='webstorm .'
+
+# terminal
+alias cd..='cd ..'
+alias cl='clear'
+
