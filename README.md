@@ -2,6 +2,11 @@
 
 ## Get started mac 🍏
 
+### Install command line developer tools
+
+```sh
+sudo xcode-select --install
+```
 
 ### Setup mac settings
 

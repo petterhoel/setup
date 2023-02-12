@@ -1,15 +1,13 @@
-# install command line developer tools
-sudo xcode-select --install
-
 # install oh my zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # install home-brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-brew doctor
-brew update
-brew tap homebrew/cask-versions
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+
 
 # install apps
 brew install --cask 1password
