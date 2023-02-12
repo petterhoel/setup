@@ -2,11 +2,6 @@
 
 ## Get started mac 🍏
 
-### Setup global git
-
-```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/petterhoel/setup/main/mac/git.sh)"
-```
 
 ### Setup mac settings
 
@@ -18,6 +13,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/petterhoel/setup/main/mac/
 
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/petterhoel/setup/main/mac/installs.sh)"
+```
+
+### Setup global git (depends on prev step)
+
+```sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/petterhoel/setup/main/mac/git.sh)"
 ```
 
 ### Setup .zshrc and posh

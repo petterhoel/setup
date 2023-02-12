@@ -52,12 +52,10 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 # Show the /Volumes folder
 sudo chflags nohidden /Volumes
 
-
 # Enable Safari’s debug menu
 defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
 
+# make directory for code
+mkdir ~/Code
 
 killall Finder
-# make directory for code
-# mkdir ~/Code
-# cd ~/Code
