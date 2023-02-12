@@ -2,14 +2,10 @@
 sudo xcode-select --install
 
 # install oh my zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-# oh-my-zsh theme
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
-echo 'source ~/Code/powerlevel10k/powerlevel10k.zsh-theme' >>! ~/.zshrc
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # install home-brew
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 brew doctor
 brew update
@@ -39,6 +35,7 @@ brew install --cask vlc
 brew install docker
 brew install docker-compose
 
+## oh my posh
 brew install jandedobbeleer/oh-my-posh/oh-my-posh
 oh-my-posh font install
 
