@@ -1,7 +1,15 @@
 defaults write com.apple.dock static-only -bool true
-killall Dock
 
-# Show Path in Finder:
+## Icon size dock
+defaults write com.apple.dock tilesize -integer 32
+
+# Show/hide dock fast
+defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock autohide-delay -float 0.0001
+defaults write com.apple.dock autohide-time-modifier -int 0;
+defaults write com.apple.dock no-bouncing -bool true
+
+# Show Path in Finder
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool false; 
 
 ## Default columns in Finder
@@ -59,3 +67,4 @@ defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
 mkdir ~/Code
 
 killall Finder
+killall Dock
