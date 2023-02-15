@@ -1,0 +1,1 @@
+Copy-Item -Path .\powershell\profile.ps1 -Destination $Profile
