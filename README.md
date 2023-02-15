@@ -36,7 +36,18 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/petterhoel/setup/main/mac/
 
 ## Get startred windows ⊞
 
-- run git.bat
+### Install apps
+
+```
+iwr https://raw.githubusercontent.com/petterhoel/setup/main/windows/installs.bat | iex
+```
+
+### Setup global git
+
+```
+iwr https://raw.githubusercontent.com/petterhoel/setup/main/windows/git.bat | iex
+```
+
 - manual steps
 
 ## Manual steps 😿

@@ -1,27 +1,23 @@
+:: powershell core ? 
+winget install -e --id AgileBits.1Password
+winget install -e --id AgileBits.1Password.CLI
+winget install -e --id Axosoft.GitKraken
+winget install -e --id Git.Git
+winget install -e --id JanDeDobbeleer.OhMyPosh
+winget install -e --id JetBrains.Toolbox
+winget install -e --id LINQPad.LINQPad.7
+winget install -e --id Microsoft.AzureDataStudio
+winget install -e --id Mozilla.Firefox.DeveloperEdition
+winget install -e --id SlackTechnologies.Slack
+winget install -e --id TechSmith.Snagit.2023
+winget install -e --id XP9CSRSZ9PS7X0
+winget install -e --id Microsoft.Teams
+winget install -e --id Notion.Notion
+winget install -e --id Docker.DockerDesktop
+winget install -e --id CoreyButler.NVMforWindows 
+winget install -e --id Microsoft.PowerToys
 
-:: install chocolatey with powershell
-@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
-
-:: set global confirmation
-choco feature enable -n allowGlobalConfirmation
-
-:: install apps
-choco install powershell-core
-choco install vlc
-choco install firefox
-choco install git
-choco install jetbrainstoolbox
-choco install vscode
-choco install gitkraken
-choco install slack
-choco install spotify
-choco install snagit
-choco install ssms
-choco install microsoft-windows-terminal
-choco install linqpad
-choco install cascadia-code-nerd-font
-choco install azure-data-studio
-
+oh-my-posh font install
 Install-Module cd-extras
 
 :: get this repo
