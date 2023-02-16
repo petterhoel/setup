@@ -1,8 +1,8 @@
-:: powershell core ? 
+winget install --silent -e --id Git.Git
+winget install --silent -e --id Microsoft.PowerShell 
 winget install --silent -e --id AgileBits.1Password
 winget install --silent -e --id AgileBits.1Password.CLI
 winget install --silent -e --id Axosoft.GitKraken
-winget install --silent -e --id Git.Git
 winget install --silent -e --id JanDeDobbeleer.OhMyPosh
 winget install --silent -e --id JetBrains.Toolbox
 winget install --silent -e --id LINQPad.LINQPad.7
