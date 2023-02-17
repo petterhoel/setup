@@ -16,19 +16,3 @@ winget install --silent -e --id Notion.Notion
 winget install --silent -e --id Docker.DockerDesktop
 winget install --silent -e --id CoreyButler.NVMforWindows 
 winget install --silent -e --id Microsoft.PowerToys
-
-oh-my-posh font install
-Install-Module cd-extras
-
-:: get this repo
-git clone --depth=1 https://github.com/petterhoel/setup.git
-cd setup
-
-:: make directory for code
-mkdir C:\Code
-cd C:\Code
-
-:: todo
-::  -wsl
-::  -terminal setup
-::  -poweshell core setup
