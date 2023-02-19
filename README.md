@@ -34,7 +34,7 @@ curl https://raw.githubusercontent.com/petterhoel/setup/main/mac/.zshrc-append >
 
 ### Set terminal font
 ```
-Install and set terminal to Meslo LGM NF, pt 20
+Install and set terminal to Meslo LGM NF, pt 18
 
 oh-my-posh font install
 ```
