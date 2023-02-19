@@ -1,6 +1,5 @@
 eval "$(oh-my-posh --init --shell zsh --config https://raw.githubusercontent.com/petterhoel/setup/main/oh-my-posh/petter.omp.json)"
 
-
 # navigering
 alias src='~/Code'
 alias mess='~/Code/Rct4Net.Messages'
@@ -22,4 +21,3 @@ alias ws='webstorm .'
 # terminal
 alias cd..='cd ..'
 alias cl='clear'
-
