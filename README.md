@@ -30,7 +30,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/petterhoel/setup/main/mac/
 
 ```sh
 curl https://raw.githubusercontent.com/petterhoel/setup/main/mac/.zshrc-append >> ~/.zshrc
-curl https://raw.githubusercontent.com/petterhoel/setup/main/main/oh-my-posh/petter.omp.json -o ~/.omp/petter.omp.json --create-dirs
 ```
 
 ### Set terminal font
