@@ -29,7 +29,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/petterhoel/setup/main/mac/
 ### Setup .zshrc and posh
 
 ```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/petterhoel/setup/main/mac/terminal-environment.sh)"
+curl https://raw.githubusercontent.com/petterhoel/setup/main/mac/.zshrc-append >> ~/.zshrc
 curl https://raw.githubusercontent.com/petterhoel/setup/main/main/oh-my-posh/petter.omp.json -o ~/.omp/petter.omp.json --create-dirs
 ```
 
