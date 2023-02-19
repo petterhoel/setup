@@ -41,7 +41,7 @@ oh-my-posh font install
 
 ### Do manual steps
 
-## Get startred windows ⊞
+## Get started windows ⊞
 
 ### Install apps
 
