@@ -32,6 +32,13 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/petterhoel/setup/main/mac/
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/petterhoel/setup/main/mac/terminal-environment.sh)"
 ```
 
+### Set terminal font
+```
+Install and set terminal to Meslo LGM NF, pt 20
+
+oh-my-posh font install
+```
+
 ### Do manual steps
 
 ## Get startred windows ⊞
@@ -47,6 +54,14 @@ iwr https://raw.githubusercontent.com/petterhoel/setup/main/windows/installs.bat
 ```
 iwr https://raw.githubusercontent.com/petterhoel/setup/main/windows/git.bat | iex
 ```
+
+### Set terminal font
+```
+Install and set terminal to Meslo LGM NF, pt 20
+
+oh-my-posh font install
+```
+
 
 - manual steps
 
