@@ -1,3 +1,6 @@
+Import-Module posh-git
+Import-Module cd-extras
+
 oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/petterhoel/setup/main/oh-my-posh/petter.omp.json' | Invoke-Expression
 
 # navigering
