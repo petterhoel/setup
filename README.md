@@ -30,6 +30,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/petterhoel/setup/main/mac/
 
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/petterhoel/setup/main/mac/terminal-environment.sh)"
+curl https://raw.githubusercontent.com/petterhoel/setup/main/main/oh-my-posh/petter.omp.json -o ~/.omp/petter.omp.json --create-dirs
 ```
 
 ### Set terminal font
