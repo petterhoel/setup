@@ -55,9 +55,14 @@ iwr https://raw.githubusercontent.com/petterhoel/setup/main/windows/installs.bat
 iwr https://raw.githubusercontent.com/petterhoel/setup/main/windows/git.bat | iex
 ```
 
-### Set terminal font
+### Set terminal
 ```
-Install and set terminal to Meslo LGM NF, pt 20
+Install-Module posh-git
+Install-Module cd-extras
+
+curl https://raw.githubusercontent.com/petterhoel/setup/main/windows/profile.ps1 -o $PROFILE
+
+# Install and set terminal to Meslo LGM NF, pt 20
 
 oh-my-posh font install
 ```
