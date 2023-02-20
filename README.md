@@ -36,8 +36,7 @@ curl https://raw.githubusercontent.com/petterhoel/setup/main/mac/.zshrc-append >
 ```sh
 oh-my-posh font install
 ```
-
-### Do manual steps
+_____________________________________
 
 ## Get started windows ⊞
 
@@ -65,10 +64,7 @@ curl https://raw.githubusercontent.com/petterhoel/setup/main/windows/profile.ps1
 # Install terminal font
 oh-my-posh font install
 ```
-
-
-- manual steps
-
+_____________________________________
 ## Manual steps 😿
 
 - Jetbrains settings
@@ -76,15 +72,3 @@ oh-my-posh font install
 - Add ssh .pub-key to github, work ++
 - install tinkertool
 - install global protect
-- Deal with ssh and 1password cli
-- Kopiere innhold i poweshell/profile.ps1 til $Profile
-
-## Todo
-
-- Mac
-  - Iterm theme
-  - Background image
-- Windows
-  - terminal profile
-  - Background image
-- Settings management jetbrains
