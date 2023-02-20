@@ -33,7 +33,7 @@ curl https://raw.githubusercontent.com/petterhoel/setup/main/mac/.zshrc-append >
 ```
 
 ### Set terminal font
-```
+```sh
 Install and set terminal to Meslo LGM NF, pt 18
 
 oh-my-posh font install
@@ -44,26 +44,27 @@ oh-my-posh font install
 ## Get started windows ⊞
 
 ### Install apps
-
+sh
 ```
 iwr https://raw.githubusercontent.com/petterhoel/setup/main/windows/installs.bat | iex
 ```
 
 ### Setup global git
 
-```
+```sh
 iwr https://raw.githubusercontent.com/petterhoel/setup/main/windows/git.bat | iex
 ```
 
 ### Set terminal
-```
+```sh
+# Install nice stuff
 Install-Module posh-git
 Install-Module cd-extras
 
+# Set up local profile
 curl https://raw.githubusercontent.com/petterhoel/setup/main/windows/profile.ps1 -o $PROFILE
 
 # Install and set terminal to Meslo LGM NF, pt 20
-
 oh-my-posh font install
 ```
 
