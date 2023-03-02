@@ -19,6 +19,8 @@ brew install --cask firefox-developer-edition
 brew install --cask gitkraken
 brew install --cask iterm2
 brew install --cask jetbrains-toolbox
+brew tap microsoft/git                                                                                               3.516s
+brew install --cask git-credential-manager-core
 brew install --cask microsoft-edge
 brew install --cask microsoft-remote-desktop
 brew install --cask microsoft-teams
