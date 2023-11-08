@@ -1,6 +1,6 @@
 :: make directory for code
-mkdir C:\Code
-cd C:\Code
+mkdir D:\source
+cd D:\source
 
 :: todo
 ::  -wsl

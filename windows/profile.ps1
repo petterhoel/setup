@@ -4,11 +4,10 @@ Import-Module cd-extras
 oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/petterhoel/setup/main/oh-my-posh/petter.omp.json' | Invoke-Expression
 
 # navigering
-function pas { set-location "~/Code/Pasientrutine/Furst.Pasientrutine.Frontend" }
-function lm { set-location "~/Code/LisMikro/Furst.LisMikro.Frontend" }
-function pl { set-location "~/Code/Plattform/Lis" }
-function mess { set-location "~/Code/Rct4Net.Messages" }
-function src { set-location "~/Code" }
+function pas { set-location "D:/source/Pasientrutine/Furst.Pasientrutine.Frontend" }
+function lm { set-location "D:/source/LisMikro/Furst.LisMikro.Frontend" }
+function pl { set-location "D:/source/Plattform/Lis" }
+function src { set-location "D:/source" }
 
 # terminal
 function cl { clear }

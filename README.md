@@ -40,6 +40,9 @@ _____________________________________
 
 ## Get started windows ⊞
 
+### Set up devdrive
+https://learn.microsoft.com/en-us/windows/dev-drive
+
 ### Install apps
 sh
 ```

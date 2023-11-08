@@ -1,10 +1,9 @@
 eval "$(oh-my-posh --init --shell zsh --config https://raw.githubusercontent.com/petterhoel/setup/main/oh-my-posh/petter.omp.json)"
 
 # navigering
-alias src='~/Code'
-alias mess='~/Code/Rct4Net.Messages'
-alias pas='~/Code/Pasientrutine/Furst.Pasientrutine.Frontend'
-alias lm='~/Code/LisMikro/Furst.LisMikro.Frontend'
+alias src='~/source'
+alias pas='~/source/Pasientrutine/Furst.Pasientrutine.Frontend'
+alias lm='~/source/LisMikro/Furst.LisMikro.Frontend'
 alias fix='rm -rf node_modules package-lock.json && npm i'
 
 # git
