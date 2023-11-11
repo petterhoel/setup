@@ -1,11 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "palette": {
-        "os": "#ACB0BE",
-        "closer": "p:os",
-        "pink": "#F5BDE6",
+        "pink": "#ffa6f7",
         "lavender": "#B7BDF8",
-        "blue":  "#8AADF4"
+        "blue":  "#8AADF4",
+        "turq": "#8de3d0",
+        "yellow": "#ebe48a"
   },
   "blocks": [
     {
@@ -20,12 +20,11 @@
         {
           "foreground": "p:pink",
           "properties": {
-            "folder_icon": "..\ue5fe..",
             "home_icon": "~",
             "style": "folder"
           },
           "style": "plain",
-          "template": "{{ .Path }} ",
+          "template": "{{ .Path }}/ ",
           "type": "path"
         },
         {
@@ -43,10 +42,10 @@
             "tag_icon": "\uf412 "
           },
           "foreground_templates": [
-            "{{ if or (.Working.Changed) (.Staging.Changed) }}yellow{{ end }}",
-            "{{ if and (gt .Ahead 0) (gt .Behind 0) }}red{{ end }}",
-            "{{ if gt .Ahead 0 }}green{{ end }}",
-            "{{ if gt .Behind 0 }}red{{ end }}"
+            "{{ if or (.Working.Changed) (.Staging.Changed) }}p:yellow{{ end }}",
+            "{{ if and (gt .Ahead 0) (gt .Behind 0) }}p:pink{{ end }}",
+            "{{ if gt .Ahead 0 }}p:turq{{ end }}",
+            "{{ if gt .Behind 0 }}p:pink{{ end }}"
           ],
           "template": "{{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uF044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uF046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \uF692 {{ .StashCount }}{{ end }}",
           "properties": {
@@ -83,7 +82,7 @@
           "type": "exit",
           "style": "powerline",
           "background": "transparent",
-          "foreground": "p:blue",
+          "foreground": "p:turq",
           "foreground_templates": ["{{ if gt .Code 0 }}p:pink{{ end }}"],
           "powerline_symbol": "",
           "template": "\u276f ",
