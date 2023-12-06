@@ -11,7 +11,7 @@ winget install --silent -e --id Microsoft.AzureDataStudio
 winget install --silent -e --id Mozilla.Firefox.DeveloperEdition
 winget install --silent -e --id SlackTechnologies.Slack
 winget install --silent -e --id TechSmith.Snagit.2023
-winget install --silent -e --id XP9CSRSZ9PS7X0 # qobus from windows store
+winget install --silent -e --id XP9CSRSZ9PS7X0 # qobuz from windows store
 winget install --silent -e --id Microsoft.Teams
 winget install --silent -e --id Notion.Notion
 winget install --silent -e --id Docker.DockerDesktop
