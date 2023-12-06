@@ -72,6 +72,6 @@ _____________________________________
 
 - Jetbrains settings
 - Dictionary jetbrains
-- Add ssh .pub-key to github, work ++
-- install tinkertool
+- Work and personal git credentials
+- install tinkertool (mac)
 - install global protect
