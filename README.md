@@ -75,3 +75,4 @@ _____________________________________
 - Work and personal git credentials
 - install tinkertool (mac)
 - install global protect
+- windows dev drive
