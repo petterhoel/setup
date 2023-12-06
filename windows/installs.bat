@@ -18,3 +18,4 @@ winget install --silent -e --id Docker.DockerDesktop
 winget install --silent -e --id CoreyButler.NVMforWindows 
 winget install --silent -e --id Microsoft.PowerToys
 winget install --silent -e --id GitHub.cli
+winget install --silent -e --id GitHub.GitHubDesktop
