@@ -7,11 +7,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-
-
 # install apps
 brew install --cask 1password
 brew install --cask 1password-cli
+brew install --cask keeper-password-manager
 brew install --cask azure-data-studio
 brew install --cask bettertouchtool
 brew install --cask chrysalis
