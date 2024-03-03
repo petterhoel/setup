@@ -33,6 +33,7 @@ brew install --cask slack
 brew install --cask snagit
 brew install --cask visual-studio-code
 brew install --cask vlc
+brew install --cask alt-tab
 brew install docker
 brew install docker-compose
 
