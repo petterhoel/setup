@@ -3,6 +3,7 @@ eval "$(oh-my-posh --init --shell zsh --config https://raw.githubusercontent.com
 # navigering
 alias src='~/source'
 alias pas='~/source/Pasientrutine/Furst.Pasientrutine.Frontend'
+alias fp='~/source//PasientWeb/src/Furst.Pasient.Frontend'
 alias lm='~/source/LisMikro/Furst.LisMikro.Frontend'
 alias fix='rm -rf node_modules package-lock.json && npm i'
 
