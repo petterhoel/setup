@@ -37,6 +37,7 @@ brew install --cask alt-tab
 brew install docker
 brew install docker-compose
 brew install azure-cli
+brew install --cask polypane
 
 ## oh my posh
 brew install jandedobbeleer/oh-my-posh/oh-my-posh
