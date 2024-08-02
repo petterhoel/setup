@@ -36,6 +36,7 @@ brew install --cask vlc
 brew install --cask alt-tab
 brew install docker
 brew install docker-compose
+brew install azure-cli
 
 ## oh my posh
 brew install jandedobbeleer/oh-my-posh/oh-my-posh
