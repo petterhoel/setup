@@ -20,3 +20,4 @@ winget install --silent -e --id Microsoft.PowerToys
 winget install --silent -e --id GitHub.cli
 winget install --silent -e --id GitHub.GitHubDesktop
 winget install --silent -e --id Microsoft.AzureCLI
+winget install --silent -e --id Firstversionist.Polypane
