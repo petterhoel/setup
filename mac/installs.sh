@@ -9,6 +9,7 @@ brew install --cask 1password
 brew install --cask dotnet-sdk
 brew install --cask eloston-chromium
 brew install --cask firefox@developer-edition
+brew install --cask ghostty
 brew install --cask git-credential-manager-core
 brew install --cask github
 brew install --cask gitkraken
