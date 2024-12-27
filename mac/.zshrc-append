@@ -1,19 +1,15 @@
-eval "$(oh-my-posh --init --shell zsh --config https://raw.githubusercontent.com/petterhoel/setup/main/oh-my-posh/petter.omp.json)"
 
 # navigering
-alias src='~/source'
-alias pas='~/source/Pasientrutine/Furst.Pasientrutine.Frontend'
-alias fp='~/source//PasientWeb/src/Furst.Pasient.Frontend'
+alias bl='~/source/blegenhoel'
+alias fi='~/source/Furst.Identity/Furst.IdentityManager.Frontend'
+alias fp='~/source/FurstPasient/src/Furst.FurstPasient.Frontend'
 alias lm='~/source/LisMikro/Furst.LisMikro.Frontend'
-alias fix='rm -rf node_modules package-lock.json && npm i'
-
-# git
-alias g='g'
-alias gb='git checkout -b  '
-alias gs='git status'
-alias ga='git add -A'
-alias gcom='git add -A && git commit -m '
-alias gpu='git pull '
+alias lw='~/source/Plattform/Lis/Furst.LisWeb'
+alias pas='~/source/Pasientrutine/Furst.Pasientrutine.Frontend'
+alias pl='~/source/Plattform/Lis'
+alias src='~/source'
+alias sw='~/source/Tools/StatusWeb'
+alias tj='~/source/Tools/Tjeneroversikt'
 
 # jetbrains
 alias ws='webstorm .'
