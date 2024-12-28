@@ -4,20 +4,18 @@ winget install --silent -e --id AgileBits.1Password
 winget install --silent -e --id AgileBits.1Password.CLI
 winget install --silent -e --id Keeper.KeeperDesktop
 winget install --silent -e --id Axosoft.GitKraken
-winget install --silent -e --id JanDeDobbeleer.OhMyPosh
 winget install --silent -e --id JetBrains.Toolbox
 winget install --silent -e --id LINQPad.LINQPad.7
-winget install --silent -e --id Microsoft.AzureDataStudio
 winget install --silent -e --id Mozilla.Firefox.DeveloperEdition
 winget install --silent -e --id SlackTechnologies.Slack
-winget install --silent -e --id TechSmith.Snagit.2023
+winget install --silent -e --id TechSmith.Snagit.2025
 winget install --silent -e --id XP9CSRSZ9PS7X0 # qobuz from windows store
 winget install --silent -e --id Microsoft.Teams
-winget install --silent -e --id Notion.Notion
-winget install --silent -e --id Docker.DockerDesktop
 winget install --silent -e --id CoreyButler.NVMforWindows 
 winget install --silent -e --id Microsoft.PowerToys
 winget install --silent -e --id GitHub.cli
 winget install --silent -e --id GitHub.GitHubDesktop
 winget install --silent -e --id Microsoft.AzureCLI
 winget install --silent -e --id Firstversionist.Polypane
+winget install --silent -e --id DEVCOM.JetBrainsMonoNerdFont
+winget install --siletn -e --id Starship.Starship
