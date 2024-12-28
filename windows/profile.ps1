@@ -1,14 +1,18 @@
-Import-Module posh-git
 Import-Module cd-extras
-
-oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/petterhoel/setup/main/oh-my-posh/petter.omp.json' | Invoke-Expression
+Import-Module git-aliases -DisableNameChecking
+Invoke-Expression (&starship init powershell)
 
 # navigering
 function pas { set-location "D:/source/Pasientrutine/Furst.Pasientrutine.Frontend" }
-function fp { set-location "D:/source/PasientWeb/src/Furst.Pasient.Frontend" }
-function lm { set-location "D:/source/LisMikro/Furst.LisMikro.Frontend" }
-function pl { set-location "D:/source/Plattform/Lis" }
+function fp  { set-location "D:/source/FurstPasient/src/Furst.FurstPasient.Frontend" }
+function lm  { set-location "D:/source/LisMikro/Furst.LisMikro.Frontend" }
+function pl  { set-location "D:/source/Plattform/Lis" }
+function lw  { set-location "D:/source/Plattform/Lis/Furst.LisWeb" }
 function src { set-location "D:/source" }
+function fi  { set-location "D:/source/Furst.Identity/Furst.IdentityManager.Frontend" }
+function sw  { set-location "D:/source/Tools/StatusWeb" }
+function tj  { set-location "D:/source/Tools/Tjeneroversikt" }
+
 
 # terminal
 function cl { clear }
@@ -19,12 +23,9 @@ function rid { rider }
 function rid ([String] $path) { rider $path }
 
 
-# git
-function g { git }
-function gs { git "status" }
-function ga { git add "-A" }
-function gpu { git pull }
-function gcom ([String] $message) { git commit -m $message }
-function gb ([String] $branchname){ git checkout -b $branchname }
-
 src
+
+#f45873b3-b655-43a6-b217-97c00aa0db58 PowerToys CommandNotFound module
+
+Import-Module -Name Microsoft.WinGet.CommandNotFound
+#f45873b3-b655-43a6-b217-97c00aa0db58
