@@ -1,0 +1,45 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+[character]
+success_symbol = '[➜](bold green)'
+error_symbol = '[💀](bold red)'
+
+[package]
+disabled = true
+
+#  
+# configure directory
+[directory]
+read_only = " "
+style = 'blue bold'
+
+[cmd_duration]
+min_time = 50
+show_milliseconds = true
+style = 'foreground'
+
+[git_status]
+format = '([\[$all_status$ahead_behind\]]($style) )'
+stashed = "[${count}*](green)"
+modified = "[${count}+](yellow)"
+deleted =  "[${count}-](red)"
+conflicted =  "[${count}~](red)"
+ahead = "⇡${count}"
+behind = "⇣${count}"
+untracked = "[${count}?](blue)"
+staged = "[${count}+](green)"
+
+[git_state]
+style =	"bold red"
+format = "[$state( $progress_current/$progress_total) ]($style)"
+rebase = "rebase"
+merge = "merge"
+revert = "revert"
+cherry_pick = "cherry"
+bisect = "bisect"
+am = "am"
+am_or_rebase = "am/rebase"
+
+[nodejs]
+format = "[$symbol($version )]($style)"
