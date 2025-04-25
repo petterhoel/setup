@@ -18,4 +18,4 @@ winget install --silent -e --id GitHub.GitHubDesktop
 winget install --silent -e --id Microsoft.AzureCLI
 winget install --silent -e --id Firstversionist.Polypane
 winget install --silent -e --id DEVCOM.JetBrainsMonoNerdFont
-winget install --siletn -e --id Starship.Starship
+winget install --silent -e --id Starship.Starship
