@@ -11,7 +11,7 @@ brew install --cask dotnet-sdk
 brew install --cask firefox@developer-edition
 brew install --cask font-jetbrains-mono-nerd-font
 brew install --cask ghostty
-brew install --cask git-credential-manager-core
+brew install --cask git-credential-manager
 brew install --cask github
 brew install --cask gitkraken
 brew install --cask jetbrains-toolbox
