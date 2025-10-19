@@ -43,7 +43,7 @@ defaults write com.apple.dock mru-spaces -bool false
 defaults write com.apple.CloudSubscriptionFeatures.optIn "545129924" -bool "false"
 
 # Reduce motion in Accessibility settings (most effective)
-defaults write com.apple.universalaccess reduceMotion -bool true
+# defaults write com.apple.universalaccess reduceMotion -bool true
 
 # Disable window animations
 defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
