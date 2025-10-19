@@ -4,6 +4,9 @@ brew install docker
 brew install docker-compose
 brew install gh
 brew install nvm
+brew install zsh-autosuggestions
+brew install zsh-fast-syntax-highlighting
+brew install zsh-syntax-highlighting
 
 brew install --cask 1password
 brew install --cask calibre
